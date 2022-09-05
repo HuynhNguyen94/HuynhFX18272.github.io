@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: autopx;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  #personal-info {
+    padding-right: 25px;
+  }
+  #job-info {
+    margin-top: 50px;
+  }
+  .cer-2 {
+    border-left: none;
+    border-top: 2px solid #d6c08d;
+  }
+  .cer-box {
+    padding-top: 30px;
+  }
+
+  #footer a:link {
+    margin-right: 10px;
+  }
+  section .container {
+    padding: 0;
+  }
+}
